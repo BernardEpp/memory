@@ -36,3 +36,5 @@ This app was created by running
 ```
     npx create-react-app my-app --template cra-template-pwa
 ```
+
+This will use the tool 'workbox' to run the app as an PWA (https://create-react-app.dev/docs/making-a-progressive-web-app/).
