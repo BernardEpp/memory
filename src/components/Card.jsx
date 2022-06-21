@@ -1,3 +1,5 @@
+import React from "react";
+
 const Card = ({ image, selected, onClick }) => {
   return (
     <div className="card">

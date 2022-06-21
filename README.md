@@ -23,11 +23,13 @@ to bundle the source code with webpack.
 
 ## Deploy
 
-To tell firebase to upload the code to the cloud, run:
+To tell firebase to upload the app to the cloud, run:
 
 ```
     firebase deploy
 ```
+
+You can run the app by calling the url provided in the terminal output.
 
 ## Notes
 
