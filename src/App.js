@@ -29,7 +29,7 @@ function App() {
     setWins(0);
     handleTurn();
     setCards(shuffle);
-  }
+  };
 
   // For selection and match handling
   useEffect(() => {
@@ -77,8 +77,11 @@ function App() {
     if (cards.length && checkWin.length < 1) {
       console.log('You win!');
       setWins(wins + 1);
+      console.log('Increased wins!');
       handleTurn();
+      console.log('set new turn!');
       setCards(shuffle);
+      console.log('shuffled cards!');
     }
   }, [cards, wins]);
 
